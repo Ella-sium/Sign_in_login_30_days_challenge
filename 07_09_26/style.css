@@ -6,11 +6,29 @@
 }
 
 body{
-    /*Degrade*/
-    background: linear-gradient();
+    background: linear-gradient(
+        135deg,
+        #332c71,
+        #fabadc,
+        #bfc8ff,
+        #332c71
+    );
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #332c71;
+}
+
+.titre{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .body-div{
+    min-height: 100vh;
+    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +37,247 @@ body{
 #image{
     width: 40%;
     height: 80vh;
-    border-radius: 20px;
-    box-shadow: 2px 2px aliceblue;
+    border-radius: 40px;
+    box-shadow: 5px 5px 8px rgba(24, 25, 26, 0.589);
 }
+
+.login-section{
+    padding: 40px;
+    width: 60%;
+    height: 70vh;
+    background-color: #4531f746;
+    border-radius: 0  50px 50px 0;
+    box-shadow: 5px 5px 8px rgba(24, 25, 26, 0.589);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.btn-links{
+    padding: 30px;
+}
+
+.btn-links ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.links-li a{
+    text-decoration: none;
+    color: #332c71;
+    font-size: 1rem;
+}
+
+.inputs input{
+    border: none;
+    border-bottom: 2px solid #332c71;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+.div-mail label{
+    position: absolute;
+    left: 0;
+    /* bottom: 5px; */
+}
+
+.div-mail i {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    /* font-size: 1.5rem; */
+}
+
+.div-password label{
+    position: absolute;
+    left: 0;
+    /* bottom: 8px; */
+}
+
+.div-password i {
+    position: absolute;
+    right: 0;
+    /* bottom: 8px; */
+}
+
+
+.div-mail{
+    position: relative;
+}
+
+.div-password{
+    position: relative;
+    margin: 50px 0px;
+}
+
+/* .div-mail input{
+    width: 100%;
+
+} */
+.text{
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+#login-btn{
+    display: block;
+    margin: 30px auto;
+    padding: 5px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+ 
+    border-radius: 20px;
+    border: none;
+    color: #332c71;
+    background: linear-gradient(
+        160deg,
+        #6b61df,
+        #9c5abb86
+    );
+    
+    width: 300px;
+    height: 50px;
+}
+
+/*--------------------------------------- Responsive ---------------------------------*/
+
+@media (max-width: 1500px) {
+
+    body {
+        font-size: 1.3rem;
+    }
+
+    .titre {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    #login-btn {
+        width: 300px;
+        height: 50px;
+
+        font-size: 1.3rem;
+
+        margin: 30px auto;
+    }
+
+    .links-li a {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Écrans jusqu'à 1200px */
+
+@media (max-width: 1200px) {
+
+    .body-div {
+        padding: 40px;
+    }
+
+    #image {
+        width: 40%;
+    }
+
+    .login-section {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .titre {
+        font-size: 1.8rem;
+        padding-bottom: 30px;
+    }
+
+    #login-btn {
+        width: 250px;
+        height: 50px;
+
+        font-size: 1.2rem;
+
+        margin: 30px auto;
+    }
+
+    .links-li a {
+        font-size: 1rem;
+    }
+}
+
+
+/* Écrans jusqu'à 900px */
+
+@media (max-width: 900px) {
+
+    .body-div {
+        padding: 30px;
+    }
+
+    #image {
+        display: none;
+    }
+
+    .login-section {
+        width: 80%;
+        height: auto;
+
+        border-radius: 40px;
+
+        padding: 40px;
+    }
+
+    #login-btn {
+        width: 80%;
+    }
+}
+
+
+/* Écrans jusqu'à 600px */
+
+@media (max-width: 600px) {
+
+    .body-div {
+        padding: 20px;
+    }
+
+    .login-section {
+        width: 100%;
+
+        padding: 25px;
+
+        border-radius: 30px;
+    }
+
+    .text {
+        padding: 10px;
+    }
+
+    .titre {
+        font-size: 1.7rem;
+        padding-bottom: 20px;
+    }
+
+    .btn-links {
+        padding: 20px 0;
+    }
+
+    .btn-links ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #login-btn {
+        width: 100%;
+    }
+}
+

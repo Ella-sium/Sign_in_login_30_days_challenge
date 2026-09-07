@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Login_1</title>
 </head>
 <body>
@@ -15,21 +19,30 @@
                     Login
                 </h1>
                 <div class="inputs">
-
+                    <div class="div-mail">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail" required>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="div-password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                        <i class="fa-solid fa-unlock-keyhole"></i>
+                    </div>  
                 </div>
-                <button>
+                <button id="login-btn">
                     Login
                 </button>
-                <div class="bottom-links">
-                    <ul>
-                        <li class="links-li">
-                            <a href="#">Create an account</a>
-                        </li>
-                        <li class="links-li">
-                            <a href="#">Forgot password</a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="btn-links">
+                <ul>
+                    <li class="links-li">
+                        <a href="#">Create an account</a>
+                    </li>
+                    <li class="links-li">
+                        <a href="#">Forgot password</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
