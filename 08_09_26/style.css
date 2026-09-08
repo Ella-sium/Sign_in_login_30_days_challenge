@@ -125,3 +125,60 @@ p a{
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
+
+/*------------------------------------- Responsive design ----------------------------------------*/
+@media (max-width: 1010px){
+    .div-body{
+        padding: 5%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .text h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text h6{
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+        text-align: justify;
+    }
+
+    .login-sec{
+        padding: 40px;
+        width: 80%;
+        height: 80vh;
+        /* height: auto; */
+        font-size: 1rem;
+        background-color: rgba(56, 7, 71, 0.486);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.507);
+    }
+    .login-sec label{
+        margin-left: 10px;
+    }
+
+    .btn-sign{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .div-check label{
+        font-size: 0.8rem;
+    }
+    .inputs-user-info{
+        height: 20px;
+    }
+
+    .login-sec p{
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    
+}
+
