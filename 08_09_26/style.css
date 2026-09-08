@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: 
+        linear-gradient(
+            rgba(248, 103, 127, 0.5),
+            rgba(255, 192, 203, 0.5),
+            rgba(248, 103, 127, 0.5)
+        ),
+        url(background.jfif)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: rgba(241, 237, 240, 0.973);
+    /* font-size: 1rem; */
+}
+
+.div-body{
+    padding: 8%;
+    height: 100vh;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-shadow: 0 0 9px rgba(0, 0, 0, 0.815);
+}
+
+.text h1{
+    font-size: 6rem;
+}
+
+.text h6{
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.login-sec{
+    padding: 40px;
+    width: 40%;
+    height: 80vh;
+    background-color: rgba(56, 7, 71, 0.486);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.507);
+}
+
+.login-sec label{
+    margin-left: 30px;
+}
+
+.inputs-user-info{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(56, 7, 71, 0.438);
+    outline: none;
+    text-align: center;
+}
+
+.password{
+    margin-bottom: 10px;
+}
+/* .div-check{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1px;
+} */
+#check{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    margin-left: 40px;
+}
+
+.btn-sign{
+    width: 50%;
+    height: 40px;
+
+    display: block;
+    margin: 30px auto;
+
+    justify-content: center;
+    background: linear-gradient(
+        135deg,
+        rgba(129, 55, 151, 0.705),
+        rgba(117, 39, 141, 0.932),
+        rgba(56, 7, 71, 0.822)
+    );
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    color: aliceblue;
+
+}
+
+p a{
+    color: aliceblue;
+    font-weight: bolder;
+    /* padding-top: 30px; */
+}
+
+#forgot-p{
+    padding-top: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
     <title>Login_2</title>
 </head>
 <body>
@@ -12,23 +18,38 @@
             <h1>
                 welcome
             </h1>
-            <h3>
+            <h6>
                 Have a great journey ahead...
-            </h3>
+            </h6>
         </div>
         <div class="login-sec">
             <div class="name">
                 <label for="name">Username</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name"  class="inputs-user-info">
             </div>
             <div class="password">
                 <label for="name">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" class="inputs-user-info">
             </div>
-            <label for="check">Remember me</label>
-            <input type="checkbox" name="check" id="check">
-
+            <br>
+            <div class="div-check">
+                <input type="checkbox" name="check" id="check">
+                <label for="check">Remember me</label>
+            </div> 
             
+            <br>
+
+            <button type="button" class="btn-sign">
+                Sign in
+            </button>
+
+            <p>
+                Don't have an account? <a href="#"> Sign Up</a>
+            </p>
+
+            <br>
+        
+            <a href="#" id="forgot-p">Forgot Password</a>
         </div>
     </div>
     
