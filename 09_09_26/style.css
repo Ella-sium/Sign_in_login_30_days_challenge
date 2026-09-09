@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(91, 53, 100);
+    /* background: linear-gradient(
+        135deg,
+        rgb(91, 53, 100),
+        rgb(154, 125, 160),
+        rgb(242, 182, 255),
+        rgb(91, 53, 100)
+    ); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #69548b;
+}
+
+.div-body{
+    width: 95%;
+    height: 90vh;
+    
+    background-image: url(background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.774);
+
+    display: flex;
+    justify-content: right;
+}
+
+.div-card{
+    padding: 5%;
+    margin: 8vh;
+    
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.774);
+
+    justify-content: center;
+    background-color: rgba(238, 238, 238, 0.651);
+}
+
+#titre{
+    font-weight: lighter;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+.inputs input{
+    border: none;
+    border-bottom: 1px solid white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: #69548b;
+    outline: none;
+
+    width: 400px;
+    height: 30px;
+
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #69548b;
+    font-size: 1rem
+}
+.mail,
+.password{
+    padding-bottom: 6vh;
+}
+
+#btn-sign{
+    display: block;
+    margin: 6px auto;
+
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+    color: white;
+    
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    width: 50%;
+    height: 30px;
+
+    background-color: #69548b;
+
+}
+
+.forgot-P{
+    margin-top: 2vh;
+}
+
+.forgot-P a{
+    text-decoration: none;
+    color: #69548b;
+}
