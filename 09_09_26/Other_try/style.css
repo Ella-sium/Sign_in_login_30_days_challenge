@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(back5\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.253);
+}
+
+.div-body{
+    position: relative;
+}
+
+.login-sec{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(240, 248, 255, 0.432);
+    backdrop-filter: blur(5px);
+}
+
+#titre{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#sous-titre1{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: rgba(236, 61, 157, 0.897);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sous-titre2{
+    font-family: cursive;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sous-titre2 a{
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: rgba(236, 61, 157, 0.897);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs input{
+    width: 70%;
+    height: 35px;
+    padding: 20px;
+    margin: 1vh;
+
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.inputs input::placeholder{
+    color: white;
+
+}
+
+.img-div{
+    position: absolute;
+    top: 10px;
+    right: 20%;
+}
+
+.img-div img{
+    height: 80%;
+}
+
+.btn-sign{
+    display: block;
+    padding: 5px;
+    margin: 2% auto;
+
+    width: 70%;
+    height: 40px;
+
+    background-color: rgba(236, 61, 157, 0.726);
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
