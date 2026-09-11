@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Login4</title>
+    <title>Login_4</title>
 </head>
 <body>
     <div class="div-body">
@@ -26,22 +26,30 @@
                 <h1>
                     Welcome
                 </h1>
+                <br>
                 <h6>
                     Sign in to continue to your dashboard
                 </h6>
             </div>
             <div class="card">
                 <div class="inputs">
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" required placeholder="Email"> 
-                    <i class="fa-regular fa-envelope"></i>
-                    <label for="password"></label>
-                    <input type="password" name="password" id="password" required placeholder="Password">
-                    <i class="fa-solid fa-unlock"></i> 
+                    <div class="div-mail">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" required placeholder="Email"> 
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+
+                    <div class="div-Pass">
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" required placeholder="Password">
+                        <i class="fa-solid fa-unlock"></i> 
+                    </div>
                 </div>
                 <div class="links">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">Remember me</label>
+                    <div class="div-check-box">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
                     <a href="#">Forgot password?</a>
                 </div>
                 <button type="button" class="btn-sign">Sign in</button>
@@ -60,7 +68,7 @@
             </div>
             <div class="create-account">
                 <p>
-                    New here? <a href="#">Create an account</a>
+                    New here? <a href="#">  Create an account</a>
                 </p>
             </div>
         </div>
