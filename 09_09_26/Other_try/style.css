@@ -112,3 +112,24 @@ body{
     color: white;
     font-size: 1rem;
 }
+
+.separator{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator hr{
+    /* flex: 1; */
+    width: 29%;
+    border: none;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+.separator span{
+    color: white;
+    font-size: 1rem;
+}
+
