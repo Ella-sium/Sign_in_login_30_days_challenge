@@ -16,11 +16,12 @@ body{
     );
     background-repeat: no-repeat;
     font-size: 1rem;
+    color: aliceblue;
 }
 
 .div-body{
     padding: 2%;
-    min-height: 90vh;
+    min-height: 90vh; 
     display: flex;
     gap: 10px;
     align-items: center;
@@ -28,12 +29,16 @@ body{
 }
 
 .img-div{
-    width: 80%;
+    width: 1%;
     background-image: url(background.jfif);
 }
 
 .img-div img{
-    width: 30%;
-    /* height: 90vh; */
+    /* width: 30%; */
+    height: 90vh;
 }
 
+.login-sec{
+    background-color: rgba(145, 8, 72, 0.747);
+    
+}
